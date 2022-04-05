@@ -29,15 +29,15 @@ const Navigation = ({ scrollTo }) => {
           </ul> */}
         </li>
         <li className="drop">
-          <a href="javascript:void(0);" onClick={() => scrollTo("posref")} >
+          <a href="#" onClick={() => scrollTo("posref")} >
             Products <IoIosArrowDown />
           </a>
           <ul className="dropdown">
             <li>
-              <a href="javascript:void(0);" onClick={() => scrollTo("posref")} >POS</a>
+              <a href="#" onClick={() => scrollTo("posref")} >POS</a>
             </li>
             <li>
-              <a href="javascript:void(0);" onClick={() => scrollTo("retailref")} >Retail</a>
+              <a href="#" onClick={() => scrollTo("retailref")} >Retail</a>
             </li>
           </ul>
         </li>
@@ -94,7 +94,7 @@ const Navigation = ({ scrollTo }) => {
           </ul>
         </li> */}
         <li>
-          <a href="javascript:void(0);" onClick={() => scrollTo("contactref")} >About Us</a>
+          <a href="#" onClick={() => scrollTo("contactref")} >About Us</a>
         </li>
       </ul>
     </nav>
