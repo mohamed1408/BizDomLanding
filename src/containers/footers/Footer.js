@@ -97,7 +97,7 @@ const Footer = ({ theme, elRef }) => {
                 </div>
               </div> */}
             {/* </div> */}
-            {/* End Single Widget */}
+            {/* End Single Widget*/}
             {/* Start Single Widget */}
             <div className="col-lg-9 col-md-6 col-sm-6 col-12 md__mt--40 sm__mt--40">
               {/* <div className="footer__widget support">
